@@ -1,0 +1,89 @@
+@import url(./root.css);
+
+body {
+  font-family: var(--opensans);
+  font-size: 15px;
+  text-align: center;
+}
+
+.container {
+  margin: 62px auto 66px;
+  width: 626px;
+}
+
+.container__img {
+  margin-bottom: 32px;
+}
+
+.titulo__principal {
+  color: var(--azul);
+  font-family: var(--dosis);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.45px;
+  margin-bottom: 16px;
+}
+
+.titulo__principal span {
+  color: var(--rosa);
+  font-weight: 700;
+}
+
+.texto__principal {
+  color: var(--cinza);
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+
+.texto__principal span {
+  font-weight: 700;
+}
+
+.texto__principal strong {
+  color: var(--azul);
+  font-weight: 700;
+}
+
+.texto__secundario {
+  color: var(--cinza);
+  font-weight: 400;
+  line-height: 20.43px;
+}
+.rodape {
+  color: var(--azul);
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.rodape__line {
+  border: 1px solid var(--branco);
+  width: 391px;
+  height: 0;
+  margin: 0 auto 16px;
+}
+
+
+.rodape__links {
+  margin-bottom: 40.83px;
+}
+
+.rodape__links .rodape__link + .rodape__link {
+  margin-left: 42px;
+}
+
+.rodape__link {
+  color: var(--azul);
+  font-weight: 700;
+  line-height: 22.15px;
+  text-decoration: none;
+}
+
+.rodape__wave {
+  position: fixed;
+  width: 100%;
+  height: 176px;
+  bottom: 0;
+  left: 0;
+}

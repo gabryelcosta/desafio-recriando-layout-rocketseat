@@ -1,0 +1,11 @@
+:root {
+  /* paleta de cores */
+  --branco: #ECEFF2;
+  --cinza: #828282;
+  --azul: #3F3D56;
+  --rosa: #EE24FF;
+
+  /* fontes */
+  --opensans: 'Open Sans', sans-serif;
+  --dosis: 'Dosis', sans-serif;
+}
